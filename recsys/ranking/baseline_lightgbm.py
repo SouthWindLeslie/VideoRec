@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import roc_auc_score
-import lightgbm as lgb
+from sklearn.model_selection import train_test_split # train/val split
+from sklearn.metrics import roc_auc_score # evalutation AUC
+import lightgbm as lgb # train ranking model
 from recsys.data_pipeline.ingest import load_movielens_100k
 
 
