@@ -1,6 +1,18 @@
-venv/
+# macOS
+.DS_Store
+
+# Python
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-data/
 
+# Virtual env
+venv/
+.env/
+
+# Model checkpoints
+*.txt
+*.bin
+*.ckpt
+
+# Datasets
+data/
