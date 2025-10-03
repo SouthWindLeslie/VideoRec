@@ -41,6 +41,7 @@ model = lgb.train(
     ]
 )
 
+model.save_model("model.txt")
 
 
 # 7. Prediction
