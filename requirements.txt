@@ -5,3 +5,4 @@ lightgbm
 matplotlib
 fastapi
 uvicorn
+requests
