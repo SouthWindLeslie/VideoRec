@@ -15,4 +15,4 @@ venv/
 *.ckpt
 
 # Datasets
-data/
+data/.DS_Store
